@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Yi Ren (任意)"
+title                    : "Wen Yin (殷文)"
 description              : "Research scientist in TikTok, Data-Speech Dept. Focusing on speech, NLP and music."
-repository               : "rayeren/rayeren.github.io"
+repository               : "yinwen2019/yinwen2019.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,14 +21,14 @@ baidu_site_verification  : code-ZxFK3f4pfb
 
 # Site Author
 author:
-  name             : "Yi Ren (任意)"
+  name             : "Wen Yin (殷文)"
   avatar           : "images/ry_profile.jpeg"
   bio              : "TikTok"
-  location         : "Singapore"
+  location         : "China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=4FA6C0AAAAAJ"
-  email            : "rayeren613@gmail.com"
+  googlescholar    : "https://scholar.google.com/citations?user=UwkfZLkAAAAJ"
+  email            : "yinwen1999@126.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : "rayeren"
   dblp             : "https://dblp.org/pid/75/6568-6.html"
-  orcid            : "https://orcid.org/0000-0002-9160-3848"
+  orcid            : "https://orcid.org/0009-0009-6099-9091"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
