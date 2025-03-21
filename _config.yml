@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Wen Yin (殷文)"
-description              : "Research scientist in TikTok, Data-Speech Dept. Focusing on speech, NLP and music."
+description              : "Phd candidate in UESTC, Laboratory of Intelligent Collaborative Computing. Focusing on Multimodal, LLM and Emotion."
 repository               : "yinwen2019/yinwen2019.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -37,14 +37,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "RayeRen"
+  github           : "yinwen2019"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "rayeren"
-  dblp             : "https://dblp.org/pid/75/6568-6.html"
+  dblp             : "https://dblp.org/pid/133/4228.html"
   orcid            : "https://orcid.org/0009-0009-6099-9091"
   pinterest        :
   soundcloud       :
