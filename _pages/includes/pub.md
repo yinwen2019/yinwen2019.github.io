@@ -1,9 +1,17 @@
-
 # 📝 Publications 
 ## 🎙 Emotion Recognition
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/paper/TiCAL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+[TiCAL:Typicality-Based Consistency-Aware Learning for Multimodal Emotion Recognition](https://github.com/yinwen2019/TiCAL) \\
+**Wen Yin**, Siyu Zhan, Cencen Liu, XIN Hu, Guiduo Duan, Xiurui Xie, Yuan-Fang Li, Tao He
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/kcdp.png' alt="sym" width="100%"></div></div>
+-  We propose TiCAL, a novel framework that performs dynamic multi-stage fusion by leveraging inter-modal consistency and unimodal typicality,  mimicking human-like emotion perception.
+-  TiCAL assess unimodal emotional pseudo-labels and its typicality, then defined the modal consistency quantification matrix, enabling robust and accurate MER.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/paper/kcdp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Knowledge-Aligned Counterfactual-Enhancement Diffusion Perception for Unsupervised Cross-Domain Visual Emotion Recognition](https://yinwen2019.github.io/ucdver/) \\
@@ -13,6 +21,21 @@
 -  we propose a Knowledge-aligned Counterfactual enhancement Diffusion Perception (KCDP)  framework to learn domain-agnostic knowledge across diverse emotion domains.
 </div>
 </div>
+
+
+
+## 🤓 Aspect-based Sentiment Analysis
+- `COLING 2024` [SynPrompt: Syntax-aware Enhanced Prompt Engineering for Aspect-based Sentiment Analysis](https://aclanthology.org/2024.lrec-main.1344/), **Wen Yin**, Cencen Liu, Yi Xu, Ahmad Raza Wahla, Huang Yiting, Dezhang Zheng.
+- ``ICANN 2023`` [Prompt-oriented Fine-tuning Dual Bert for Aspect-Based Sentiment Analysis](https://link.springer.com/chapter/10.1007/978-3-031-44204-9_42), **Wen Yin**, Yi Xu, Cencen Liu, Dezhang Zheng, Qi Wang, Chuanjie Liu
+
+## ✨ Multimodal Perception and Learing
+- `AAAI 2026` [CaT-Diff: Cascaded Text-enhanced Diffusion Model for Time-Series Imputation](https://aclanthology.org/2024.lrec-main.1344/), Changjian Xu, Yong Wang, Ruizheng Huang, Zhicheng Zhang, **Wen Yin**, Kexin Li .
+
+## Others
+- `Neurocomputing` [SRMamba-T: Exploring the hybrid Mamba-Transformer network for Single Image Super-Resolution](https://www.sciencedirect.com/science/article/pii/S0925231225001602), Cencen Liu, Dongyang Zhang, Guoming Lu, **Wen Yin**, Jielei Wang, Guangchun Luo.
+- `ITNLP 2023` [Structure-aware Table-to-Text Generation with Prefix-tuning](https://dl.acm.org/doi/pdf/10.1145/3622896.3622919), Cencen Liu, Yi Xu, **Wen Yin**, Dezhang Zheng.
+- ``CISDS 2023`` [Increasing the Transferability of Adversarial Attack by Depthwise Separation Convolution](https://ieeexplore.ieee.org/document/10471557), Xida Cao, **Wen Yin**, Guang Kou, Jia Chen.
+
 
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2021</div><img src='images/fs2.png' alt="sym" width="100%"></div></div>
@@ -27,13 +50,3 @@
 .
 </div>
 </div> -->
-
-## 🤓 Aspect-based Sentiment Analysis
-- `COLING 2024` [SynPrompt: Syntax-aware Enhanced Prompt Engineering for Aspect-based Sentiment Analysis](https://aclanthology.org/2024.lrec-main.1344/), **Wen Yin**, Cencen Liu, Yi Xu, Ahmad Raza Wahla, Huang Yiting, Dezhang Zheng.
-- ``ICANN 2023`` [Prompt-oriented Fine-tuning Dual Bert for Aspect-Based Sentiment Analysis](https://link.springer.com/chapter/10.1007/978-3-031-44204-9_42), **Wen Yin**, Yi Xu, Cencen Liu, Dezhang Zheng, Qi Wang, Chuanjie Liu
-
-
-## Others
-- `Neurocomputing` [SRMamba-T: Exploring the hybrid Mamba-Transformer network for Single Image Super-Resolution](https://www.sciencedirect.com/science/article/pii/S0925231225001602), Cencen Liu, Dongyang Zhang, Guoming Lu, **Wen Yin**, Jielei Wang, Guangchun Luo.
-- `ITNLP 2023` [Structure-aware Table-to-Text Generation with Prefix-tuning](https://dl.acm.org/doi/pdf/10.1145/3622896.3622919), Cencen Liu, Yi Xu, **Wen Yin**, Dezhang Zheng.
-- ``CISDS 2023`` [Increasing the Transferability of Adversarial Attack by Depthwise Separation Convolution](https://ieeexplore.ieee.org/document/10471557), Xida Cao, **Wen Yin**, Guang Kou, Jia Chen.
