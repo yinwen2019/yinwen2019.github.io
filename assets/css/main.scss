@@ -45,8 +45,8 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
+    // border-bottom: 1px #efefef solid;
+    padding: 1em 0 1em 0;
     
 
     .paper-box-image{
@@ -112,18 +112,26 @@ h1:before, .anchor:before {
   align-items: flex-start;
   width: 100%;
   margin-bottom: 2em;
-  gap: 15px;
+  gap: 25px;
   border: none !important; /* 彻底清除可能存在的表格边框 */
 
   .intern-logo {
-    width: 60px;
+    width: 80px;              /* 稍微加宽一点容器，给长方形 Logo 留空间 */
+    height: 60px;             /* 固定容器高度，保证行高一致 */
     flex-shrink: 0;
+    display: flex;            /* 开启 flex 布局让图片在容器内居中 */
+    align-items: center;      /* 垂直居中 */
+    justify-content: center;  /* 水平居中 */
+
     img {
-      width: 60px !important;
-      height: 60px !important;
-      border-radius: 8px;
+      width: auto !important;     /* 宽度自适应 */
+      height: auto !important;    /* 高度自适应 */
+      max-width: 100% !important; /* 最大不超过容器宽度 */
+      max-height: 100% !important;/* 最大不超过容器高度 */
+      object-fit: contain;        /* 保持纵横比缩放 */
+      border-radius: 4px;         /* 稍微减小圆角，适配不同形状 */
       display: block;
-      margin: 0 !important; /* 消除主题默认图片间距 */
+      margin: 0 !important;
     }
   }
 

@@ -8,7 +8,7 @@
 **Wen Yin**, Siyu Zhan, Cencen Liu, XIN Hu, Guiduo Duan, Xiurui Xie, Yuan-Fang Li, Tao He
 
 -  We propose TiCAL, a novel framework that performs dynamic multi-stage fusion by leveraging inter-modal consistency and unimodal typicality,  mimicking human-like emotion perception.
--  TiCAL assess unimodal emotional pseudo-labels and its typicality, then defined the modal consistency quantification matrix, enabling robust and accurate MER.
+-  TiCAL assess unimodal emotional pseudo-labels and its typicality, then defined the modal consistency quantification matrix, enabling robust MER.
 </div>
 </div>
 
@@ -24,7 +24,6 @@
 </div>
 
 
----
 - `ACL Finding 2026` [CaM-HG: Causal-Enhanced MoE and Hypergraphs Network for Incomplete Multimodal Emotion Recognition in Conversations](https://aclanthology.org/2024.lrec-main.1344/), Mingjian Yang, Yong Wang, Peng Liu, **Wen Yin†**.
 
 - `ICASSP 2026` [DGSDNet: Dual-Graph Spectral Diffusion Network for Incomplete Multimodal Emotion Recognition in Conversations](https://aclanthology.org/2024.lrec-main.1344/), Mingjian Yang, Yong Wang, Peng Liu, **Wen Yin†**.
