@@ -1,4 +1,5 @@
 # 🎖 Honors and Awards
+- *2025.11* Yanbao Special Scholarship
 - *2025.10* Academic Scholarship
 - *2024.01* Silver Star Scholarship
 - *2023.10* Academic Scholarship

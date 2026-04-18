@@ -1,6 +1,5 @@
 ---
 ---
-
 /*
  *    Minimal Mistakes Jekyll Theme
  *
@@ -106,4 +105,55 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+}
+
+.intern-row {
+  display: flex !important;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 2em;
+  gap: 15px;
+  border: none !important; /* 彻底清除可能存在的表格边框 */
+
+  .intern-logo {
+    width: 60px;
+    flex-shrink: 0;
+    img {
+      width: 60px !important;
+      height: 60px !important;
+      border-radius: 8px;
+      display: block;
+      margin: 0 !important; /* 消除主题默认图片间距 */
+    }
+  }
+
+  .intern-info {
+    flex: 1;
+    min-width: 0; /* 允许内容在必要时收缩，防止挤压日期 */
+    line-height: 1.4;
+    
+    strong {
+      display: block;
+      margin-bottom: 2px;
+      color: #333;
+    }
+    
+    span, small { 
+      margin: 0; 
+      padding: 0; 
+      display: block; 
+    }
+  }
+
+  .intern-date {
+    /* 解决不加粗：强制设置较高的字重并指定颜色 */
+    font-weight: 700 !important; 
+    color: #111 !important; 
+    
+    white-space: nowrap;
+    text-align: right;
+    margin-left: auto;
+    font-size: 0.95em;
+    padding-top: 2px; /* 与左侧文字顶端对齐微调 */
+  }
 }

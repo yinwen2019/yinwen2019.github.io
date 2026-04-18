@@ -1,5 +1,6 @@
 # 📝 Publications 
-## 🎙 Emotion Recognition
+<small>† indicates the corresponding author</small>
+## 🧡 Affective Computing
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/paper/TiCAL.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -23,15 +24,20 @@
 </div>
 
 
+---
+- `ACL Finding 2026` [CaM-HG: Causal-Enhanced MoE and Hypergraphs Network for Incomplete Multimodal Emotion Recognition in Conversations](https://aclanthology.org/2024.lrec-main.1344/), Mingjian Yang, Yong Wang, Peng Liu, **Wen Yin†**.
 
-## 🤓 Aspect-based Sentiment Analysis
+- `ICASSP 2026` [DGSDNet: Dual-Graph Spectral Diffusion Network for Incomplete Multimodal Emotion Recognition in Conversations](https://aclanthology.org/2024.lrec-main.1344/), Mingjian Yang, Yong Wang, Peng Liu, **Wen Yin†**.
 - `COLING 2024` [SynPrompt: Syntax-aware Enhanced Prompt Engineering for Aspect-based Sentiment Analysis](https://aclanthology.org/2024.lrec-main.1344/), **Wen Yin**, Cencen Liu, Yi Xu, Ahmad Raza Wahla, Huang Yiting, Dezhang Zheng.
 - ``ICANN 2023`` [Prompt-oriented Fine-tuning Dual Bert for Aspect-Based Sentiment Analysis](https://link.springer.com/chapter/10.1007/978-3-031-44204-9_42), **Wen Yin**, Yi Xu, Cencen Liu, Dezhang Zheng, Qi Wang, Chuanjie Liu
 
-## ✨ Multimodal Perception and Learing
+## ✨ Multimodal Perception and MLLM
 - `AAAI 2026` [CaT-Diff: Cascaded Text-enhanced Diffusion Model for Time-Series Imputation](https://aclanthology.org/2024.lrec-main.1344/), Changjian Xu, Yong Wang, Ruizheng Huang, Zhicheng Zhang, **Wen Yin**, Kexin Li .
 
 ## Others
+- `ICASSP 2026` [Toward Cross-Dataset Clothes-Changing Re-Identification via Efficient Decoupled Adaptive Matching](https://www.sciencedirect.com/science/article/pii/S0925231225001602), **Wen Yin**, Qiuran Li, ..., Tao He.
+- `CVPR 2026` [Can We Build Scene Graphs, Not Classify Them? FlowSG: Progressive Image-Conditioned Scene Graph Generation with Flow Matching](https://www.sciencedirect.com/science/article/pii/S0925231225001602), XIN Hu, Ke Qin, **Wen Yin**, ...Tao He.
+- `CVPR Finding 2026` [AlignVAR: Towards Globally Consistent Visual Autoregression for Image Super-Resolution](https://www.sciencedirect.com/science/article/pii/S0925231225001602), Cencen Liu, Dongyang Zhang, *Wen Yin*, Jielei Wang, Guangchun Luo.
 - `Neurocomputing` [SRMamba-T: Exploring the hybrid Mamba-Transformer network for Single Image Super-Resolution](https://www.sciencedirect.com/science/article/pii/S0925231225001602), Cencen Liu, Dongyang Zhang, Guoming Lu, **Wen Yin**, Jielei Wang, Guangchun Luo.
 - `ITNLP 2023` [Structure-aware Table-to-Text Generation with Prefix-tuning](https://dl.acm.org/doi/pdf/10.1145/3622896.3622919), Cencen Liu, Yi Xu, **Wen Yin**, Dezhang Zheng.
 - ``CISDS 2023`` [Increasing the Transferability of Adversarial Attack by Depthwise Separation Convolution](https://ieeexplore.ieee.org/document/10471557), Xida Cao, **Wen Yin**, Guang Kou, Jia Chen.
