@@ -39,6 +39,7 @@
 {% endif %}
 
 {% if page.excerpt %}
+  <meta name="description" content="{{ site.description | escape }}">
   <meta property="og:description" content="{{ seo_description }}">
 {% endif %}
 
