@@ -1,0 +1,14 @@
+<aside class="profile-card" aria-label="Researcher profile" itemscope itemtype="https://schema.org/Person">
+  <img class="profile-card__portrait" src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name | escape }}" width="144" height="144" itemprop="image">
+  <h2 class="profile-card__name" itemprop="name">Wen Yin <span lang="zh-CN">殷文</span></h2>
+  <p class="profile-card__role">{{ site.author.bio | escape }}</p>
+  <p class="profile-card__research">{{ site.author.description | escape }}</p>
+  <p class="profile-card__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span>{{ site.author.location | escape }}</span></p>
+  <ul class="profile-card__links" aria-label="Contact and research profiles">
+    <li><a href="mailto:{{ site.author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span></a></li>
+    <li><a href="{{ site.author.dblp }}" target="_blank" rel="noopener noreferrer"><i class="ai ai-dblp" aria-hidden="true"></i><span>DBLP</span></a></li>
+    <li><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a></li>
+    <li><a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a></li>
+    <li><a href="{{ site.author.orcid }}" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid" aria-hidden="true"></i><span>ORCID</span></a></li>
+  </ul>
+</aside>

@@ -1,57 +1,16 @@
-# 📝 Publications 
-<small>† indicates the corresponding author</small>
-## 🧡 Affective Computing
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/paper/TiCAL.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[TiCAL:Typicality-Based Consistency-Aware Learning for Multimodal Emotion Recognition](https://github.com/yinwen2019/TiCAL) \\
-**Wen Yin**, Siyu Zhan, Cencen Liu, XIN Hu, Guiduo Duan, Xiurui Xie, Yuan-Fang Li, Tao He
-
--  We propose TiCAL, a novel framework that performs dynamic multi-stage fusion by leveraging inter-modal consistency and unimodal typicality,  mimicking human-like emotion perception.
--  TiCAL assess unimodal emotional pseudo-labels and its typicality, then defined the modal consistency quantification matrix, enabling robust MER.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/paper/kcdp.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Knowledge-Aligned Counterfactual-Enhancement Diffusion Perception for Unsupervised Cross-Domain Visual Emotion Recognition](https://yinwen2019.github.io/ucdver/) \\
-**Wen Yin**, Yong Wang , Guiduo Duan, Dongyang Zhang, Xin Hu, Yuan-Fang Li, Tao He
-
-- We introduce Unsupervised Cross-Domain Visual Emotion Recognition (UCDVER).
--  we propose a Knowledge-aligned Counterfactual enhancement Diffusion Perception (KCDP)  framework to learn domain-agnostic knowledge across diverse emotion domains.
-</div>
-</div>
-
-
-- `ACL Finding 2026` [CaM-HG: Causal-Enhanced MoE and Hypergraphs Network for Incomplete Multimodal Emotion Recognition in Conversations](https://aclanthology.org/2024.lrec-main.1344/), Mingjian Yang, Yong Wang, Peng Liu, **Wen Yin†**.
-
-- `ICASSP 2026` [DGSDNet: Dual-Graph Spectral Diffusion Network for Incomplete Multimodal Emotion Recognition in Conversations](https://aclanthology.org/2024.lrec-main.1344/), Mingjian Yang, Yong Wang, Peng Liu, **Wen Yin†**.
-- `COLING 2024` [SynPrompt: Syntax-aware Enhanced Prompt Engineering for Aspect-based Sentiment Analysis](https://aclanthology.org/2024.lrec-main.1344/), **Wen Yin**, Cencen Liu, Yi Xu, Ahmad Raza Wahla, Huang Yiting, Dezhang Zheng.
-- ``ICANN 2023`` [Prompt-oriented Fine-tuning Dual Bert for Aspect-Based Sentiment Analysis](https://link.springer.com/chapter/10.1007/978-3-031-44204-9_42), **Wen Yin**, Yi Xu, Cencen Liu, Dezhang Zheng, Qi Wang, Chuanjie Liu
-
-## ✨ Multimodal Perception and MLLM
-- `AAAI 2026` [CaT-Diff: Cascaded Text-enhanced Diffusion Model for Time-Series Imputation](https://aclanthology.org/2024.lrec-main.1344/), Changjian Xu, Yong Wang, Ruizheng Huang, Zhicheng Zhang, **Wen Yin**, Kexin Li .
-
-## Others
-- `ICASSP 2026` [Toward Cross-Dataset Clothes-Changing Re-Identification via Efficient Decoupled Adaptive Matching](https://www.sciencedirect.com/science/article/pii/S0925231225001602), **Wen Yin**, Qiuran Li, ..., Tao He.
-- `CVPR 2026` [Can We Build Scene Graphs, Not Classify Them? FlowSG: Progressive Image-Conditioned Scene Graph Generation with Flow Matching](https://www.sciencedirect.com/science/article/pii/S0925231225001602), XIN Hu, Ke Qin, **Wen Yin**, ...Tao He.
-- `CVPR Finding 2026` [AlignVAR: Towards Globally Consistent Visual Autoregression for Image Super-Resolution](https://www.sciencedirect.com/science/article/pii/S0925231225001602), Cencen Liu, Dongyang Zhang, *Wen Yin*, Jielei Wang, Guangchun Luo.
-- `Neurocomputing` [SRMamba-T: Exploring the hybrid Mamba-Transformer network for Single Image Super-Resolution](https://www.sciencedirect.com/science/article/pii/S0925231225001602), Cencen Liu, Dongyang Zhang, Guoming Lu, **Wen Yin**, Jielei Wang, Guangchun Luo.
-- `ITNLP 2023` [Structure-aware Table-to-Text Generation with Prefix-tuning](https://dl.acm.org/doi/pdf/10.1145/3622896.3622919), Cencen Liu, Yi Xu, **Wen Yin**, Dezhang Zheng.
-- ``CISDS 2023`` [Increasing the Transferability of Adversarial Attack by Depthwise Separation Convolution](https://ieeexplore.ieee.org/document/10471557), Xida Cao, **Wen Yin**, Guang Kou, Jia Chen.
-
-
-
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2021</div><img src='images/fs2.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[FastSpeech 2: Fast and High-Quality End-to-End Text to Speech](https://arxiv.org/abs/2006.04558) \\
-**Yi Ren**, Chenxu Hu, Xu Tan, Tao Qin, Sheng Zhao, Zhou Zhao, Tie-Yan Liu
-
-[**Project**](https://speechresearch.github.io/fastspeech2/) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:LkGwnXOMwfcC'></span></strong>
-  - This work is included by many famous speech synthesis open-source projects, such as [PaddlePaddle/Parakeet ![](https://img.shields.io/github/stars/PaddlePaddle/PaddleSpeech?style=social)](https://github.com/PaddlePaddle/PaddleSpeech), [ESPNet ![](https://img.shields.io/github/stars/espnet/espnet?style=social)](https://github.com/espnet/espnet) and [fairseq ![](https://img.shields.io/github/stars/pytorch/fairseq?style=social)](https://github.com/pytorch/fairseq)
-  [**Project**](https://diffsinger.github.io/) \| [![](https://img.shields.io/github/stars/NATSpeech/NATSpeech?style=social&label=DiffSpeech Stars)](https://github.com/NATSpeech/NATSpeech) \| [![](https://img.shields.io/github/stars/MoonInTheRiver/DiffSinger?style=social&label=DiffSinger Stars)](https://github.com/MoonInTheRiver/DiffSinger) \| [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Demo)](https://huggingface.co/spaces/NATSpeech/DiffSpeech)
-.
-</div>
-</div> -->
+<p class="page-note">&dagger; indicates the corresponding author.</p>
+{% assign authorship_roles = 'first-author,corresponding-author,other' | split: ',' %}
+{% for role in authorship_roles %}
+  {% assign role_papers = site.data.publications | where: 'authorship', role %}
+  {% if role_papers.size > 0 %}
+  <section class="publication-group" aria-labelledby="{{ role }}-publications">
+    <h2 id="{{ role }}-publications">{% case role %}{% when 'first-author' %}First-author Publications{% when 'corresponding-author' %}Corresponding-author Publications{% else %}Other Publications{% endcase %}</h2>
+    {% assign year_groups = role_papers | group_by: 'year' | sort: 'name' | reverse %}
+    {% for year_group in year_groups %}
+      {% for paper in year_group.items %}
+        {% include publication.html paper=paper %}
+      {% endfor %}
+    {% endfor %}
+  </section>
+  {% endif %}
+{% endfor %}

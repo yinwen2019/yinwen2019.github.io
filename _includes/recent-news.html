@@ -1,0 +1,18 @@
+<section class="home-section" aria-labelledby="recent-news">
+  <div class="section-heading"><h2 id="recent-news">Recent News</h2></div>
+  <ul class="news-list">
+    {% for item in site.data.news limit: 5 %}
+    <li><time datetime="{{ item.date }}">{{ item.date | replace: '-', '.' }}</time><span>{{ item.text | escape }}</span></li>
+    {% endfor %}
+  </ul>
+  {% if site.data.news.size > 5 %}
+  <details class="news-archive">
+    <summary>Earlier news</summary>
+    <ul class="news-list">
+      {% for item in site.data.news offset: 5 %}
+      <li><time datetime="{{ item.date }}">{{ item.date | replace: '-', '.' }}</time><span>{{ item.text | escape }}</span></li>
+      {% endfor %}
+    </ul>
+  </details>
+  {% endif %}
+</section>

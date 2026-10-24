@@ -2,17 +2,21 @@
 {% if site.url %}
   {% assign seo_url = site.url %}
 {% endif %}
-{% assign seo_url = seo_url | default: site.github.url %}
 
 {% if site.url %}
-  {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
+  {% assign canonical_url = page.url | absolute_url %}
 {% endif %}
 
-<title>{{ site.title }} - Homepage</title>
+{% capture seo_title %}{{ page.title | default: "Home" }} | {{ site.title }}{% endcapture %}
+<title>{{ seo_title | strip | escape }}</title>
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
+  <meta name="description" content="{{ seo_description }}">
+{% endif %}
+{% if page.robots %}
+  <meta name="robots" content="{{ page.robots | escape }}">
 {% endif %}
 
 {% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}
@@ -31,15 +35,14 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ site.title }}">
+<meta property="og:title" content="{{ seo_title | strip | escape }}">
 
 {% if seo_url %}
-  <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
-  <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
+  <link rel="canonical" href="{{ canonical_url }}">
+  <meta property="og:url" content="{{ canonical_url }}">
 {% endif %}
 
-{% if page.excerpt %}
-  <meta name="description" content="{{ site.description | escape }}">
+{% if seo_description %}
   <meta property="og:description" content="{{ seo_description }}">
 {% endif %}
 

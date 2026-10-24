@@ -1,0 +1,177 @@
+# Shared by Home and Publications. Set selected: true and selected_order to
+# feature a paper on Home. image and summary are shown only on Home.
+# authorship: first-author, corresponding-author, or other (one group per paper).
+# Venue labels, authors, and links are migrated from the existing website.
+
+- id: "tical"
+  authorship: "first-author"
+  title: "TiCAL: Typicality-Based Consistency-Aware Learning for Multimodal Emotion Recognition"
+  short_title: "TiCAL"
+  authors: "**Wen Yin**, Siyu Zhan, Cencen Liu, XIN Hu, Guiduo Duan, Xiurui Xie, Yuan-Fang Li, Tao He"
+  venue: "AAAI 2026"
+  year: 2026
+  topic: "Multimodal Emotion Recognition"
+  url: "https://github.com/yinwen2019/TiCAL"
+  links:
+    - label: "Code"
+      url: "https://github.com/yinwen2019/TiCAL"
+  selected: true
+  selected_order: 1
+  image: "/images/paper/TiCAL.png"
+  image_alt: "Overview of TiCAL's typicality-based consistency-aware learning framework."
+  summary: "Combines inter-modal consistency and unimodal typicality for dynamic, multi-stage emotion fusion."
+  image_width: 5580
+  image_height: 2108
+
+- id: "kcdp"
+  authorship: "first-author"
+  title: "Knowledge-Aligned Counterfactual-Enhancement Diffusion Perception for Unsupervised Cross-Domain Visual Emotion Recognition"
+  short_title: "KCDP"
+  authors: "**Wen Yin**, Yong Wang, Guiduo Duan, Dongyang Zhang, Xin Hu, Yuan-Fang Li, Tao He"
+  venue: "CVPR 2025"
+  year: 2025
+  topic: "Visual Emotion Recognition"
+  topic_abbreviation: "VER"
+  url: "https://yinwen2019.github.io/ucdver/"
+  links:
+    - label: "Project"
+      url: "https://yinwen2019.github.io/ucdver/"
+  selected: true
+  selected_order: 2
+  image: "/images/paper/kcdp.png"
+  image_alt: "Overview of KCDP's knowledge-aligned counterfactual-enhancement diffusion perception framework."
+  summary: "Learns domain-agnostic emotion knowledge through counterfactual enhancement for unsupervised cross-domain recognition."
+  image_width: 606
+  image_height: 257
+
+- id: "cam-hg"
+  authorship: "corresponding-author"
+  title: "CaM-HG: Causal-Enhanced MoE and Hypergraphs Network for Incomplete Multimodal Emotion Recognition in Conversations"
+  short_title: "CaM-HG"
+  authors: "Mingjian Yang, Yong Wang, Peng Liu, **Wen Yin†**"
+  venue: "ACL Finding 2026"
+  year: 2026
+  url: "https://aclanthology.org/2024.lrec-main.1344/"
+  links:
+    - label: "Paper"
+      url: "https://aclanthology.org/2024.lrec-main.1344/"
+
+- id: "dgsdnet"
+  authorship: "corresponding-author"
+  title: "DGSDNet: Dual-Graph Spectral Diffusion Network for Incomplete Multimodal Emotion Recognition in Conversations"
+  short_title: "DGSDNet"
+  authors: "Mingjian Yang, Yong Wang, Peng Liu, **Wen Yin†**"
+  venue: "ICASSP 2026"
+  year: 2026
+  url: "https://aclanthology.org/2024.lrec-main.1344/"
+  links:
+    - label: "Paper"
+      url: "https://aclanthology.org/2024.lrec-main.1344/"
+
+- id: "synprompt"
+  authorship: "first-author"
+  title: "SynPrompt: Syntax-aware Enhanced Prompt Engineering for Aspect-based Sentiment Analysis"
+  short_title: "SynPrompt"
+  authors: "**Wen Yin**, Cencen Liu, Yi Xu, Ahmad Raza Wahla, Huang Yiting, Dezhang Zheng"
+  venue: "COLING 2024"
+  year: 2024
+  url: "https://aclanthology.org/2024.lrec-main.1344/"
+  links:
+    - label: "Paper"
+      url: "https://aclanthology.org/2024.lrec-main.1344/"
+
+- id: "dual-bert"
+  authorship: "first-author"
+  title: "Prompt-oriented Fine-tuning Dual Bert for Aspect-Based Sentiment Analysis"
+  short_title: "Prompt-oriented Fine-tuning Dual Bert for Aspect-Based Sentiment Analysis"
+  authors: "**Wen Yin**, Yi Xu, Cencen Liu, Dezhang Zheng, Qi Wang, Chuanjie Liu"
+  venue: "ICANN 2023"
+  year: 2023
+  url: "https://link.springer.com/chapter/10.1007/978-3-031-44204-9_42"
+  links:
+    - label: "Paper"
+      url: "https://link.springer.com/chapter/10.1007/978-3-031-44204-9_42"
+
+- id: "cat-diff"
+  authorship: "other"
+  title: "CaT-Diff: Cascaded Text-enhanced Diffusion Model for Time-Series Imputation"
+  short_title: "CaT-Diff"
+  authors: "Changjian Xu, Yong Wang, Ruizheng Huang, Zhicheng Zhang, **Wen Yin**, Kexin Li "
+  venue: "AAAI 2026"
+  year: 2026
+  url: "https://aclanthology.org/2024.lrec-main.1344/"
+  links:
+    - label: "Paper"
+      url: "https://aclanthology.org/2024.lrec-main.1344/"
+
+- id: "clothes-changing-reid"
+  authorship: "first-author"
+  title: "Toward Cross-Dataset Clothes-Changing Re-Identification via Efficient Decoupled Adaptive Matching"
+  short_title: "Toward Cross-Dataset Clothes-Changing Re-Identification via Efficient Decoupled Adaptive Matching"
+  authors: "**Wen Yin**, Qiuran Li, ..., Tao He"
+  venue: "ICASSP 2026"
+  year: 2026
+  url: "https://www.sciencedirect.com/science/article/pii/S0925231225001602"
+  links:
+    - label: "Paper"
+      url: "https://www.sciencedirect.com/science/article/pii/S0925231225001602"
+
+- id: "flowsg"
+  authorship: "other"
+  title: "Can We Build Scene Graphs, Not Classify Them? FlowSG: Progressive Image-Conditioned Scene Graph Generation with Flow Matching"
+  short_title: "Can We Build Scene Graphs, Not Classify Them? FlowSG"
+  authors: "XIN Hu, Ke Qin, **Wen Yin**, ...Tao He"
+  venue: "CVPR 2026"
+  year: 2026
+  url: "https://www.sciencedirect.com/science/article/pii/S0925231225001602"
+  links:
+    - label: "Paper"
+      url: "https://www.sciencedirect.com/science/article/pii/S0925231225001602"
+
+- id: "alignvar"
+  authorship: "other"
+  title: "AlignVAR: Towards Globally Consistent Visual Autoregression for Image Super-Resolution"
+  short_title: "AlignVAR"
+  authors: "Cencen Liu, Dongyang Zhang, **Wen Yin**, Jielei Wang, Guangchun Luo"
+  venue: "CVPR Finding 2026"
+  year: 2026
+  url: "https://www.sciencedirect.com/science/article/pii/S0925231225001602"
+  links:
+    - label: "Paper"
+      url: "https://www.sciencedirect.com/science/article/pii/S0925231225001602"
+
+- id: "srmamba-t"
+  authorship: "other"
+  title: "SRMamba-T: Exploring the hybrid Mamba-Transformer network for Single Image Super-Resolution"
+  short_title: "SRMamba-T"
+  authors: "Cencen Liu, Dongyang Zhang, Guoming Lu, **Wen Yin**, Jielei Wang, Guangchun Luo"
+  venue: "Neurocomputing"
+  year: null
+  url: "https://www.sciencedirect.com/science/article/pii/S0925231225001602"
+  links:
+    - label: "Paper"
+      url: "https://www.sciencedirect.com/science/article/pii/S0925231225001602"
+
+- id: "table-to-text"
+  authorship: "other"
+  title: "Structure-aware Table-to-Text Generation with Prefix-tuning"
+  short_title: "Structure-aware Table-to-Text Generation with Prefix-tuning"
+  authors: "Cencen Liu, Yi Xu, **Wen Yin**, Dezhang Zheng"
+  venue: "ITNLP 2023"
+  year: 2023
+  url: "https://dl.acm.org/doi/pdf/10.1145/3622896.3622919"
+  links:
+    - label: "Paper"
+      url: "https://dl.acm.org/doi/pdf/10.1145/3622896.3622919"
+
+- id: "adversarial-transferability"
+  authorship: "other"
+  title: "Increasing the Transferability of Adversarial Attack by Depthwise Separation Convolution"
+  short_title: "Increasing the Transferability of Adversarial Attack by Depthwise Separation Convolution"
+  authors: "Xida Cao, **Wen Yin**, Guang Kou, Jia Chen"
+  venue: "CISDS 2023"
+  year: 2023
+  url: "https://ieeexplore.ieee.org/document/10471557"
+  links:
+    - label: "Paper"
+      url: "https://ieeexplore.ieee.org/document/10471557"

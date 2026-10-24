@@ -14,6 +14,9 @@ var breaks = [];
 
 function updateNav() {
 
+  // The four-page profile uses a CSS navigation without the greedy menu.
+  if (!$nav.length || !$vlinks.length) return;
+
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
 
   // The visible list is overflowing the nav

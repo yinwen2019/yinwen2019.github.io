@@ -1,6 +1,8 @@
 name: Update github myprofile
 
-on: 'page_build'
+# The legacy template targets RayeRen/RayeRen; never run it on site publication.
+on:
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest

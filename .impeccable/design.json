@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-24T12:43:19.833508+00:00",
+  "title": "Design System: Wen Yin's academic website",
+  "extensions": {
+    "colorMeta": {
+      "profile-ink": {
+        "role": "neutral",
+        "displayName": "Blue Ink",
+        "tonalRamp": [
+          "oklch(15% 0.05379 246.93)",
+          "oklch(26.43% 0.05379 246.93)",
+          "oklch(37.86% 0.05379 246.93)",
+          "oklch(49.29% 0.05379 246.93)",
+          "oklch(60.71% 0.05379 246.93)",
+          "oklch(72.14% 0.05379 246.93)",
+          "oklch(83.57% 0.05379 246.93)",
+          "oklch(95% 0.05379 246.93)"
+        ]
+      },
+      "profile-muted": {
+        "role": "neutral",
+        "displayName": "Slate Blue",
+        "tonalRamp": [
+          "oklch(15% 0.04503 244.22)",
+          "oklch(26.43% 0.04503 244.22)",
+          "oklch(37.86% 0.04503 244.22)",
+          "oklch(49.29% 0.04503 244.22)",
+          "oklch(60.71% 0.04503 244.22)",
+          "oklch(72.14% 0.04503 244.22)",
+          "oklch(83.57% 0.04503 244.22)",
+          "oklch(95% 0.04503 244.22)"
+        ]
+      },
+      "profile-link": {
+        "role": "primary",
+        "displayName": "Profile Blue",
+        "tonalRamp": [
+          "oklch(15% 0.09217 246.00)",
+          "oklch(26.43% 0.09217 246.00)",
+          "oklch(37.86% 0.09217 246.00)",
+          "oklch(49.29% 0.09217 246.00)",
+          "oklch(60.71% 0.09217 246.00)",
+          "oklch(72.14% 0.09217 246.00)",
+          "oklch(83.57% 0.09217 246.00)",
+          "oklch(95% 0.09217 246.00)"
+        ]
+      },
+      "profile-rail": {
+        "role": "neutral",
+        "displayName": "Profile Mist",
+        "tonalRamp": [
+          "oklch(15% 0.01030 247.93)",
+          "oklch(26.43% 0.01030 247.93)",
+          "oklch(37.86% 0.01030 247.93)",
+          "oklch(49.29% 0.01030 247.93)",
+          "oklch(60.71% 0.01030 247.93)",
+          "oklch(72.14% 0.01030 247.93)",
+          "oklch(83.57% 0.01030 247.93)",
+          "oklch(95% 0.01030 247.93)"
+        ]
+      },
+      "profile-wash": {
+        "role": "neutral",
+        "displayName": "Research Mist",
+        "tonalRamp": [
+          "oklch(15% 0.01269 244.25)",
+          "oklch(26.43% 0.01269 244.25)",
+          "oklch(37.86% 0.01269 244.25)",
+          "oklch(49.29% 0.01269 244.25)",
+          "oklch(60.71% 0.01269 244.25)",
+          "oklch(72.14% 0.01269 244.25)",
+          "oklch(83.57% 0.01269 244.25)",
+          "oklch(95% 0.01269 244.25)"
+        ]
+      },
+      "profile-rule": {
+        "role": "neutral",
+        "displayName": "Cool Rule",
+        "tonalRamp": [
+          "oklch(15% 0.01563 248.00)",
+          "oklch(26.43% 0.01563 248.00)",
+          "oklch(37.86% 0.01563 248.00)",
+          "oklch(49.29% 0.01563 248.00)",
+          "oklch(60.71% 0.01563 248.00)",
+          "oklch(72.14% 0.01563 248.00)",
+          "oklch(83.57% 0.01563 248.00)",
+          "oklch(95% 0.01563 248.00)"
+        ]
+      },
+      "reading-surface": {
+        "role": "neutral",
+        "displayName": "Reading White",
+        "tonalRamp": [
+          "oklch(15% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95% 0.00000 0.00)"
+        ]
+      },
+      "navigation-hover": {
+        "role": "primary",
+        "displayName": "Hover Blue Wash",
+        "tonalRamp": [
+          "oklch(15% 0.00684 247.89)",
+          "oklch(26.43% 0.00684 247.89)",
+          "oklch(37.86% 0.00684 247.89)",
+          "oklch(49.29% 0.00684 247.89)",
+          "oklch(60.71% 0.00684 247.89)",
+          "oklch(72.14% 0.00684 247.89)",
+          "oklch(83.57% 0.00684 247.89)",
+          "oklch(95% 0.00684 247.89)"
+        ]
+      },
+      "navigation-current": {
+        "role": "primary",
+        "displayName": "Current Blue Wash",
+        "tonalRamp": [
+          "oklch(15% 0.01619 245.09)",
+          "oklch(26.43% 0.01619 245.09)",
+          "oklch(37.86% 0.01619 245.09)",
+          "oklch(49.29% 0.01619 245.09)",
+          "oklch(60.71% 0.01619 245.09)",
+          "oklch(72.14% 0.01619 245.09)",
+          "oklch(83.57% 0.01619 245.09)",
+          "oklch(95% 0.01619 245.09)"
+        ]
+      },
+      "contact-hover": {
+        "role": "primary",
+        "displayName": "Contact Blue Wash",
+        "tonalRamp": [
+          "oklch(15% 0.01903 248.03)",
+          "oklch(26.43% 0.01903 248.03)",
+          "oklch(37.86% 0.01903 248.03)",
+          "oklch(49.29% 0.01903 248.03)",
+          "oklch(60.71% 0.01903 248.03)",
+          "oklch(72.14% 0.01903 248.03)",
+          "oklch(83.57% 0.01903 248.03)",
+          "oklch(95% 0.01903 248.03)"
+        ]
+      },
+      "record-muted": {
+        "role": "neutral",
+        "displayName": "Record Slate",
+        "tonalRamp": [
+          "oklch(15% 0.01900 245.34)",
+          "oklch(26.43% 0.01900 245.34)",
+          "oklch(37.86% 0.01900 245.34)",
+          "oklch(49.29% 0.01900 245.34)",
+          "oklch(60.71% 0.01900 245.34)",
+          "oklch(72.14% 0.01900 245.34)",
+          "oklch(83.57% 0.01900 245.34)",
+          "oklch(95% 0.01900 245.34)"
+        ]
+      },
+      "record-rule": {
+        "role": "neutral",
+        "displayName": "Record Rule",
+        "tonalRamp": [
+          "oklch(15% 0.00693 247.90)",
+          "oklch(26.43% 0.00693 247.90)",
+          "oklch(37.86% 0.00693 247.90)",
+          "oklch(49.29% 0.00693 247.90)",
+          "oklch(60.71% 0.00693 247.90)",
+          "oklch(72.14% 0.00693 247.90)",
+          "oklch(83.57% 0.00693 247.90)",
+          "oklch(95% 0.00693 247.90)"
+        ]
+      },
+      "record-accent": {
+        "role": "primary",
+        "displayName": "Record Blue",
+        "tonalRamp": [
+          "oklch(15% 0.11892 259.55)",
+          "oklch(26.43% 0.11892 259.55)",
+          "oklch(37.86% 0.11892 259.55)",
+          "oklch(49.29% 0.11892 259.55)",
+          "oklch(60.71% 0.11892 259.55)",
+          "oklch(72.14% 0.11892 259.55)",
+          "oklch(83.57% 0.11892 259.55)",
+          "oklch(95% 0.11892 259.55)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Research Headline",
+        "purpose": "Fluid homepage introduction heading."
+      },
+      "identity": {
+        "displayName": "Researcher Identity",
+        "purpose": "English name in the persistent profile rail."
+      },
+      "title": {
+        "displayName": "Homepage Section Title",
+        "purpose": "Selected publications and news headings on Home."
+      },
+      "body": {
+        "displayName": "Homepage Reading",
+        "purpose": "Home only; do not apply across record interiors."
+      },
+      "label": {
+        "displayName": "Shared Navigation",
+        "purpose": "Persistent route names."
+      },
+      "record-body": {
+        "displayName": "Retained Record Reading",
+        "purpose": "Original Trebuchet text inside Publications, Experience, and Honors & Talks."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "navigation-state",
+        "value": "background-color 140ms ease, color 140ms ease",
+        "purpose": "Hover color and pending marker-opacity feedback."
+      },
+      {
+        "name": "contact-state",
+        "value": "background-color 140ms ease",
+        "purpose": "Profile contact hover fill."
+      },
+      {
+        "name": "figure-state",
+        "value": "opacity 140ms ease",
+        "purpose": "Homepage figure hover ends at opacity 0.86."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "none",
+        "purpose": "Immediate content and selection updates, with spatial animations omitted."
+      },
+      {
+        "name": "navigation-selection",
+        "value": "280ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "One selection background follows the requested navigation link with FLIP transforms."
+      },
+      {
+        "name": "route-entry",
+        "value": "300ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Only the right article enters from18px and opacity0; direction follows route order."
+      },
+      {
+        "name": "route-exit",
+        "value": "140ms cubic-bezier(.4,0,1,1)",
+        "purpose": "A clipped inert outgoing article moves10px in the opposite direction and fades out, then is removed."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "shell-medium",
+        "value": "(max-width: 1023px)"
+      },
+      {
+        "name": "shell-narrow",
+        "value": "(max-width: 759px)"
+      },
+      {
+        "name": "shell-mobile",
+        "value": "(max-width: 480px)"
+      },
+      {
+        "name": "compact-height",
+        "value": "(max-height: 650px) and (min-width: 481px)"
+      },
+      {
+        "name": "record-internship",
+        "value": "(max-width: 924px)"
+      },
+      {
+        "name": "record-mobile",
+        "value": "(max-width: 599px)"
+      },
+      {
+        "name": "print",
+        "value": "print"
+      }
+    ],
+    "tonalRampPolicy": "Eight-step OKLCH ramps are synthesized display metadata, preserving each extracted hue and chroma. They are not additional implemented color tokens."
+  },
+  "components": [
+    {
+      "name": "Primary Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-link",
+      "description": "Persistent real route links with one moving selection background, intent prefetch, loading feedback and visible keyboard focus. Static preview shows the resting state.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"/\" aria-current=\"page\">Home</a><a href=\"/publications/\">Publications</a><a href=\"/experience/\">Experience</a><a href=\"/honors-talks/\">Honors &amp; Talks</a></nav>",
+      "css": ".ds-nav { display: flex; flex-wrap: wrap; gap: 6px; font-family: var(--profile-display, \"Manrope\", \"Trebuchet MS\", sans-serif); } .ds-nav a { display: flex; align-items: center; min-height: 42px; padding: 8px 15px; border: 0; border-radius: 5px; color: var(--profile-muted, #4c657a); font-size: 14px; font-weight: 600; white-space: nowrap; text-decoration: none; transition: background-color 140ms ease, color 140ms ease; } .ds-nav a:hover, .ds-nav a[data-pending] { background: #f3f7fb; color: var(--profile-link, #245b87); } .ds-nav a[aria-current=\"page\"] { background: #e5eff8; color: var(--profile-link, #245b87); } .ds-nav a:focus-visible { outline: 2px solid var(--profile-link, #245b87); outline-offset: 3px; border-radius: 3px; } @media (max-width: 480px) { .ds-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 0 3px; } .ds-nav a { padding: 7px 10px; font-size: 12px; } } @media (prefers-reduced-motion: reduce) { .ds-nav a { transition: none; } }"
+    },
+    {
+      "name": "Research Introduction",
+      "kind": "card",
+      "refersTo": "research-introduction",
+      "description": "Full-width homepage research statement with a single desktop heading line and natural narrow-screen reflow.",
+      "html": "<section class=\"ds-intro\"><h2>Understanding emotion. Exploring empathetic interaction.</h2><p>My research interests span <strong>affective computing</strong> and <strong>unified multimodal understanding and generation</strong>.</p></section>",
+      "css": ".ds-intro { container-type: inline-size; padding: 26px 30px; border-radius: 8px; background: var(--profile-wash, #edf5fc); color: var(--profile-ink, #203b53); font-family: \"Source Sans 3\", \"Trebuchet MS\", sans-serif; font-size: 17px; line-height: 1.6; } .ds-intro h2 { margin: 0 0 16px; font-family: var(--profile-display, \"Manrope\", \"Trebuchet MS\", sans-serif); font-size: clamp(20px, 2.8cqi, 28px); font-weight: 600; line-height: 1.3; letter-spacing: -0.025em; text-wrap: wrap; } .ds-intro p { max-width: none; margin: 0; } .ds-intro strong { font-weight: 600; } @media (max-width: 759px) { .ds-intro { container-type: inline-size; padding: 22px; } } @media (max-width: 480px) { .ds-intro { container-type: inline-size; padding: 18px; font-size: 16px; } .ds-intro h2 { font-size: 20px; line-height: 1.35; } }"
+    },
+    {
+      "name": "Section Heading",
+      "kind": "custom",
+      "description": "Homepage heading, optional record-route link, and fine divider.",
+      "html": "<div class=\"ds-section\"><h2>Selected Publications</h2><a href=\"/publications/\">View all publications <span aria-hidden=\"true\">→</span></a></div>",
+      "css": ".ds-section { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem 1rem; padding-bottom: 0.75rem; border-bottom: 1px solid var(--profile-rule, #dce5ee); color: var(--profile-ink, #203b53); } .ds-section h2 { margin: 0; font-family: var(--profile-display, \"Manrope\", \"Trebuchet MS\", sans-serif); font-size: 21px; font-weight: 600; line-height: 1.3; } .ds-section a { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; color: var(--profile-link, #245b87); font-family: \"Source Sans 3\", \"Trebuchet MS\", sans-serif; font-size: 15px; text-decoration: none; text-underline-offset: 0.18em; } .ds-section a:hover { text-decoration: underline; } .ds-section a:focus-visible { outline: 2px solid var(--profile-link, #245b87); outline-offset: 3px; border-radius: 3px; } @media (max-width: 480px) { .ds-section h2 { font-size: 18px; } .ds-section a { font-size: 14px; } }"
+    },
+    {
+      "name": "Publication Metadata",
+      "kind": "custom",
+      "refersTo": "publication-resource",
+      "description": "Venue at16px then inline resources above the title; full Multimodal Emotion Recognition or VER at the right. Links retain44px targets.",
+      "html": "<div class=\"ds-metadata\"><span>AAAI 2026</span><ul class=\"ds-resources\" aria-label=\"Resources for TiCAL\"><li><a href=\"https://github.com/yinwen2019/TiCAL\" target=\"_blank\" rel=\"noopener noreferrer\">Paper</a></li><li><a href=\"https://github.com/yinwen2019/TiCAL\" target=\"_blank\" rel=\"noopener noreferrer\">Code</a></li></ul><abbr title=\"Multimodal Emotion Recognition\">Multimodal Emotion Recognition</abbr></div>",
+      "css": ".ds-metadata { display: flex; flex-wrap: wrap; align-items: center; gap: 0 14px; color: var(--profile-link, #245b87); } .ds-metadata abbr { margin-left: auto; border: 0; text-decoration: none; font-size: 13px; } .ds-resources { display: flex; flex-wrap: wrap; gap: 0 0.75rem; margin: 0; padding: 0; list-style: none; } .ds-resources li { margin: 0; } .ds-resources a { display: inline-flex; align-items: center; min-height: 44px; color: var(--profile-link, #245b87); font-family: \"Source Sans 3\", \"Trebuchet MS\", sans-serif; font-size: 14px; font-weight: 600; text-underline-offset: 0.18em; } .ds-resources a:hover { text-decoration: underline; } .ds-resources a:focus-visible { outline: 2px solid var(--profile-link, #245b87); outline-offset: 3px; border-radius: 3px; }"
+    },
+    {
+      "name": "Earlier News Disclosure",
+      "kind": "custom",
+      "refersTo": "news-disclosure",
+      "description": "Native details/summary control for earlier news; sample row demonstrates the date/text grid.",
+      "html": "<details class=\"ds-archive\"><summary>Earlier news</summary><ul><li><time datetime=\"2025-01\">2025.01</time><span>Earlier news</span></li></ul></details>",
+      "css": ".ds-archive { margin-top: 0.5rem; color: var(--profile-ink, #203b53); font-family: \"Source Sans 3\", \"Trebuchet MS\", sans-serif; font-size: 17px; } .ds-archive summary { width: fit-content; min-height: 44px; padding: 0.65rem 0; color: var(--profile-link, #245b87); cursor: pointer; font-size: 0.875rem; text-underline-offset: 0.18em; } .ds-archive summary:focus-visible { outline: 2px solid var(--profile-link, #245b87); outline-offset: 3px; border-radius: 3px; } .ds-archive ul { margin: 0; padding: 0; list-style: none; } .ds-archive li { display: grid; grid-template-columns: 5.5rem minmax(0, 1fr); gap: 1rem; padding: 0.55rem 0; line-height: 1.5; } .ds-archive time { color: var(--profile-muted, #4c657a); font-size: 0.9rem; font-variant-numeric: tabular-nums; } @media (max-width: 480px) { .ds-archive { font-size: 16px; } .ds-archive li { grid-template-columns: 1fr; gap: 3px; padding: 10px 0; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "A stable researcher identity beside changing academic content.",
+    "overview": "The user-selected blue profile direction pairs a pale identity rail with a white reading surface. The atmosphere is restrained and readable: identity remains visible while academic material moves through the right pane. Existing portraits, laboratory and institution marks, and research figures provide the imagery.\n\nThe shared shell and homepage use the new type pairing. Record interiors retain their established typography. User-approved refinements compact Publications and Experience; Honors & Talks retains its established layout.\n\nAt 1176px the intro uses its full inner width and one heading line. Background/goal columns use 2.6:1 with aligned heading tops and paragraph bottoms. Publications use venue/resource metadata rows. Compact education reads date, institution, degree, location, naturally stacking at759px.\n\nTypography refinement: publication venues16px; Home titles17px with16px summaries, record titles15px with14px authors. Authors use1.35 line-height; Multimodal Emotion Recognition is not abbreviated.",
+    "keyCharacteristics": [
+      "Persistent identity and navigation across four public routes.",
+      "Pale blue tonal surfaces, blue links, and fine dividers.",
+      "Manrope identity, Source Sans 3 homepage reading, and retained Trebuchet record interiors.",
+      "Original academic imagery and inline affiliation and citation assets."
+    ],
+    "rules": [],
+    "dos": [
+      "Do preserve the persistent header and identity rail while only the right pane scrolls and changes.",
+      "Do scope the new reading type to Home; retain record-page typography and the approved compact publication and education layouts.",
+      "Do preserve original figures, author portrait, inline laboratory logo, and dynamic Scholar citation badge.",
+      "Do keep all five profile links usable in mobile and compact landscape layouts.",
+      "Do retain visible keyboard focus, native URLs, browser history, loading announcements, and reduced-motion behavior."
+    ],
+    "donts": [
+      "Don't turn the identity rail into a full-width scrolling banner.",
+      "Don't add raised card shadows to the flat homepage surfaces and research figures.",
+      "Don't replace the dynamic citation badge with a static citation count."
+    ]
+  }
+}

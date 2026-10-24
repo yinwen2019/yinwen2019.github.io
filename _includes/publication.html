@@ -1,0 +1,27 @@
+{% assign paper = include.paper %}
+<article class="publication{% if include.featured %} publication--featured{% endif %}" id="{% if include.featured %}selected-{% endif %}{{ paper.id }}">
+  {% if include.featured and paper.image %}
+  <a class="publication__figure" href="{{ paper.image | relative_url }}" aria-label="Enlarge the {{ paper.short_title | escape }} research figure">
+    <img src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt | escape }}" width="{{ paper.image_width }}" height="{{ paper.image_height }}" loading="lazy" decoding="async">
+  </a>
+  {% endif %}
+  <div class="publication__body">
+    <div class="publication__metadata">
+      <p class="publication__venue">{{ paper.venue | escape }}</p>
+      <ul class="publication__links" aria-label="Resources for {{ paper.short_title | escape }}">
+      <li><a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">Paper<span class="sr-only"> for {{ paper.short_title | escape }}</span></a></li>
+      {% for resource in paper.links %}
+      {% unless resource.label == 'Paper' %}
+      <li><a href="{{ resource.url }}" target="_blank" rel="noopener noreferrer">{{ resource.label | escape }}<span class="sr-only"> for {{ paper.short_title | escape }}</span></a></li>
+      {% endunless %}
+      {% endfor %}
+      </ul>
+      {% if include.featured and paper.topic %}
+      <span class="publication__topic"><abbr title="{{ paper.topic | escape }}" aria-hidden="true">{{ paper.topic_abbreviation | default: paper.topic | escape }}</abbr><span class="sr-only">{{ paper.topic | escape }}</span></span>
+      {% endif %}
+    </div>
+    <h3 class="publication__title">{{ paper.title | escape }}</h3>
+    <div class="publication__authors">{{ paper.authors | markdownify }}</div>
+    {% if include.featured %}<p class="publication__summary">{{ paper.summary | escape }}</p>{% endif %}
+  </div>
+</article>
