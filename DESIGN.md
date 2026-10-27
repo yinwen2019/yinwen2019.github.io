@@ -155,7 +155,7 @@ The rounded, compact display face carries identity and wayfinding; the homepage 
 
 ## Layout
 
-The application fills the viewport and clips document scrolling. The centered shell has a maximum width (1360px), a persistent navigation row (64px), and a left identity rail beside a flexible right reading pane. Only that right pane scrolls; its desktop padding is (34px 38px 0), with bottom content space (48px), stable scrollbar gutter, and anchor clearance (28px).
+The application fills the viewport and clips document scrolling. Navigation and reading content align to a centered 1360px layout, with a persistent navigation row (64px) and a left identity rail beside a flexible right reading pane. The shell and right scrollport extend to the browser's right edge even on wider screens; matching outer gutters preserve the original content width and rail position. Only that right pane scrolls; its desktop padding is (34px 38px 0), plus the outer right gutter, with bottom content space (48px), stable scrollbar gutter, and anchor clearance (28px).
 
 | Viewport condition | Rail | Reading-pane padding | Navigation |
 | --- | --- | --- | --- |

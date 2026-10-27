@@ -111,10 +111,11 @@
     display: grid;
     grid-template-columns: 240px minmax(0, 1fr);
     width: 100%;
-    max-width: 1360px;
+    max-width: none;
     min-height: 0;
-    margin: 0 auto;
-    padding: 0;
+    margin: 0;
+    // Keep the centered reading layout, but let its scrollport reach the window edge.
+    padding: 0 0 0 max(0px, calc((100vw - 1360px) / 2));
     &::after { display: none; }
   }
 
@@ -138,6 +139,7 @@
     scrollbar-color: #a8bdce #f6f9fc;
     scroll-padding-block: 28px;
     padding: 34px 38px 0;
+    padding-right: calc(38px + max(0px, (100vw - 1360px) / 2));
     &:focus { outline: none; }
     &:focus-visible { outline: 2px solid var(--profile-link); outline-offset: -3px; }
     &::-webkit-scrollbar { width: 8px; }
@@ -415,6 +417,6 @@
   .profile-document { height: auto; overflow: visible; }
   .profile-shell { position: static; display: block; height: auto; overflow: visible; }
   .profile-shell .masthead, .profile-card, .skip-link { display: none; }
-  .profile-shell #main { display: block; }
+  .profile-shell #main { display: block; padding: 0; }
   .profile-shell .page-viewport { height: auto; overflow: visible; padding: 0; }
 }
